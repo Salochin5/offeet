@@ -1,0 +1,10 @@
+.scroll_up {
+    position: relative;
+    float: right;
+    top: 20vh;
+    cursor: pointer;
+
+}
+.scroll_up:hover {
+    transform: scaleZ(20);
+}
