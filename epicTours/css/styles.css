@@ -4365,9 +4365,10 @@ blockquote {
  padding: 5px 25px;
  border-style: solid;
  border-width: 1px;
- border-color: #eb5757;
+ border-color: transparent;
  border-radius: 5px;
- background-color: #eb5757;
+ background-image: linear-gradient(145deg, #b04ff3, #71f8fe);
+ /* background-color: #eb5757; */
  -webkit-transition: border-color 300ms ease, background-color 300ms ease;
  transition: border-color 300ms ease, background-color 300ms ease;
  font-weight: 700;
@@ -4750,6 +4751,54 @@ blockquote {
  font-size: 16px;
 }
 
+.square-1 {
+ min-height: 550px;
+ background-image: -webkit-gradient(
+   linear,
+   left bottom,
+   left top,
+   from(#222),
+   to(rgba(34, 34, 34, 0))
+  ),
+  url("/epicTours/images/tours-transports.jpg");
+ background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
+  url("/epicTours/images/tours-transports.jpg");
+ background-position: 0px 0px, 50% 50%;
+ background-size: auto, cover;
+}
+
+.square-2 {
+ min-height: 550px;
+ background-image: -webkit-gradient(
+   linear,
+   left bottom,
+   left top,
+   from(#222),
+   to(rgba(34, 34, 34, 0))
+  ),
+  url("/epicTours/images/deliver.jpg");
+ background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
+  url("/epicTours/images/deliver.jpg");
+ background-position: 0px 0px, 50% 50%;
+ background-size: auto, cover;
+}
+
+.square-3 {
+ min-height: 550px;
+ background-image: -webkit-gradient(
+   linear,
+   left bottom,
+   left top,
+   from(#222),
+   to(rgba(34, 34, 34, 0))
+  ),
+  url("/epicTours/images/parties-events.jpg");
+ background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
+  url("/epicTours/images/parties-events.jpg");
+ background-position: 0px 0px, 50% 50%;
+ background-size: auto, cover;
+}
+
 .hero-section {
  min-height: 550px;
  background-image: -webkit-gradient(
@@ -4759,9 +4808,9 @@ blockquote {
    from(#222),
    to(rgba(34, 34, 34, 0))
   ),
-  url("https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceab9b7393b067_wu-jianxiong-UniC8xhlzaE-unsplash.jpg");
+  url("/epicTours/images/banner.jpg");
  background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
-  url("https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceab9b7393b067_wu-jianxiong-UniC8xhlzaE-unsplash.jpg");
+  url("/epicTours/images/banner.jpg");
  background-position: 0px 0px, 50% 50%;
  background-size: auto, cover;
 }
@@ -4806,7 +4855,8 @@ blockquote {
 .navbar {
  padding-top: 20px;
  padding-bottom: 20px;
- background-color: #eb5757;
+ background-image: linear-gradient(180deg, #b04ff3, #71f8fe);
+ /* background-color: #eb5757; */
 }
 
 .nav-link {
@@ -4817,6 +4867,8 @@ blockquote {
  -webkit-transition: all 300ms ease;
  transition: all 300ms ease;
  color: #f9f9f9;
+ font-weight: 600;
+ font-size: large;
 }
 
 .nav-link:hover {
@@ -4876,7 +4928,7 @@ blockquote {
 }
 
 .hero-paragraph {
- width: 35%;
+ width: 55%;
  margin-bottom: 25px;
  color: #f9f9f9;
  font-size: 18px;
@@ -5565,7 +5617,7 @@ blockquote {
  right: 2%;
  bottom: auto;
  border-radius: 5px;
- background-color: #eb5757;
+ background-image: linear-gradient(180deg, #b04ff3, #eb5757);
  font-size: 14px;
  text-transform: uppercase;
 }
