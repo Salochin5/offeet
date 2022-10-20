@@ -4397,7 +4397,7 @@ blockquote {
  border-width: 1px;
  border-color: transparent;
  border-radius: 5px;
- background-image: linear-gradient(145deg, #b04ff3, #71f8fe);
+ background-image: linear-gradient(145deg, #b04ff3, #71f8fe) !important;
  /* background-color: #eb5757; */
  -webkit-transition: border-color 300ms ease, background-color 300ms ease;
  transition: border-color 300ms ease, background-color 300ms ease;
@@ -4885,6 +4885,7 @@ blockquote {
 .navbar {
  padding-top: 20px;
  padding-bottom: 20px;
+ margin-top: -20px;
  background-image: linear-gradient(180deg, #b04ff3, #71f8fe);
  /* background-color: #eb5757; */
 }
@@ -5260,6 +5261,9 @@ blockquote {
  background-position: 69% 80%;
  background-size: 270%;
 }
+.ride-carousel {
+ border-radius: 10px;
+}
 
 .shop-local-right {
  display: -webkit-box;
@@ -5419,7 +5423,7 @@ blockquote {
  width: 45%;
  height: 90%;
  border-radius: 5px;
- background-image: url("https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceab15d293b077_sept-commercial-Cqu3DdNwtKQ-unsplash%20(1)%20(1).jpg");
+ background-image: url("/epicTours/images/aboutus.jpg");
  background-position: 50% 100%;
  background-size: cover;
 }
@@ -5864,9 +5868,9 @@ blockquote {
    from(rgba(34, 34, 34, 0.56)),
    to(#222)
   ),
-  url("https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceabbe7a93b07f_jed-villejo-bEcC0nyIp2g-unsplash%20(1)%20(1).jpg");
+  url("/epicTours/images/climate.jpg");
  background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.56), #222),
-  url("https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceabbe7a93b07f_jed-villejo-bEcC0nyIp2g-unsplash%20(1)%20(1).jpg");
+  url("/epicTours/images/climate.jpg");
  background-position: 0px 0px, 50% 25%;
  background-size: auto, cover;
  color: #f9f9f9;
@@ -5877,6 +5881,7 @@ blockquote {
  font-size: 38px;
  font-weight: 800;
  text-align: center;
+ color: #20c788;
 }
 
 .donate-heading-2 {
@@ -6642,6 +6647,23 @@ blockquote {
 
  .donate-heading-2 {
   font-size: 24px;
+ }
+
+ .donate-heading-2 {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+ }
+
+ .amt {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+   "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+ }
+
+ .amt-success {
+  color: #20c788;
+  font-weight: 500;
+  text-decoration: underline;
  }
 
  .donate-paragraph {
