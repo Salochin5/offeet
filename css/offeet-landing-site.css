@@ -1955,6 +1955,7 @@ blockquote {
 
  .companies-row {
   width: auto;
+  overflow: auto;
  }
 
  .company-image-container {
