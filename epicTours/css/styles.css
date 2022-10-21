@@ -4404,6 +4404,11 @@ blockquote {
  font-weight: 700;
 }
 
+.btn-1 {
+ text-decoration: none;
+ margin: auto;
+}
+
 .btn:hover {
  border-color: #222;
  background-color: #222;
@@ -4883,11 +4888,12 @@ blockquote {
 }
 
 .navbar {
- padding-top: 20px;
- padding-bottom: 20px;
- margin-top: -20px;
- background-image: linear-gradient(180deg, #b04ff3, #71f8fe);
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-top: -30px;
+ background-image: linear-gradient(150deg, #b04ff3, #71f8fe);
  /* background-color: #eb5757; */
+ /* max-height: 5vh; */
 }
 
 .nav-link {
@@ -5426,6 +5432,10 @@ blockquote {
  background-image: url("/epicTours/images/aboutus.jpg");
  background-position: 50% 100%;
  background-size: cover;
+}
+
+#choose-your-ride-left {
+ background-image: url("/epicTours/images/ride.jpg") !;
 }
 
 .owners-rich-text h2 {
@@ -6421,6 +6431,10 @@ blockquote {
   flex-direction: column;
  }
 
+ .shop-local-content-wrapper {
+  margin-top: 200px;
+ }
+
  .contact-block {
   width: 100%;
  }
@@ -6770,4 +6784,9 @@ blockquote {
 .whatsapp {
  max-width: 300px;
  border-radius: 10px;
+}
+
+.logimg {
+ border: 3px solid aquamarine;
+ border-radius: 50%;
 }

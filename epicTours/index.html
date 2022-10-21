@@ -69,10 +69,14 @@
    >
     <div class="w-container">
      <div class="nav-wrapper">
-      <a href="/" aria-current="page" class="brand w-nav-brand w--current"
+      <a
+       href="/epicTours/"
+       aria-current="page"
+       class="brand w-nav-brand w--current"
        ><img
         src="/epicTours/images/epic-logo.png"
         alt="Epic Tours & DeliveryLogo"
+        class="logimg"
       /></a>
       <div class="cart-nav-wrapper">
        <nav role="navigation" class="nav-menu w-nav-menu">
@@ -88,6 +92,60 @@
          >Contact</a
         >
        </nav>
+       <div>
+        <div class="w-commerce-commercecartwrapper cart-menu">
+         <a
+          href="#"
+          data-node-type="commerce-cart-open-link"
+          class="w-commerce-commercecartopenlink cart w-inline-block"
+          ><img
+           src="https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceab4f1093b080_cart.svg"
+           alt=""
+           class="cart-icon"
+          />
+          <div class="w-commerce-commercecartopenlinkcount cart-quantity-cart">
+           0
+          </div></a
+         >
+         <div
+          style="display: none"
+          class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-rightSidebar"
+         >
+          <div class="w-commerce-commercecartcontainer">
+           <div class="w-commerce-commercecartheader">
+            <h4 class="w-commerce-commercecartheading">Your Cart</h4>
+            <a
+             href="#"
+             data-node-type="commerce-cart-close-link"
+             class="w-commerce-commercecartcloselink w-inline-block"
+             ><svg width="16px" height="16px" viewBox="0 0 16 16">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+               <g fill-rule="nonzero" fill="#333333">
+                <polygon
+                 points="6.23223305 8 0.616116524 13.6161165 2.38388348 15.3838835 8 9.76776695 13.6161165 15.3838835 15.3838835 13.6161165 9.76776695 8 15.3838835 2.38388348 13.6161165 0.616116524 8 6.23223305 2.38388348 0.616116524 0.616116524 2.38388348 6.23223305 8"
+                ></polygon>
+               </g>
+              </g>
+             </svg>
+            </a>
+           </div>
+           <div class="w-commerce-commercecartformwrapper">
+            <div
+             style="display: none"
+             class="w-commerce-commercecarterrorstate alert-wrapper danger"
+            >
+             <div class="w-cart-error-msg">
+              Product is not available in this quantity.
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="nav-button w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+       </div>
       </div>
      </div>
     </div>
@@ -118,7 +176,10 @@
    <div class="container">
     <div class="support-top-wrapper">
      <div class="support-top-left">
-      <div class="support-top-details-text">Have a look at the</div>
+      <a href="/epicTours/about.html" class="btn-1"
+       ><div class="btn">About Us</div></a
+      >
+
       <h2 class="support-top-heading">Services we offer</h2>
      </div>
      <div class="support-top-right">
@@ -137,11 +198,13 @@
         TOURS &<br />
         TRANSPORT
        </div>
-       <img
-        src="https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceab748393b055_Circle.svg"
-        alt="Circle Decoration in Shop Products Block"
-        class="support-square-image"
-       />
+       <a href="/epicTours/contact.html">
+        <img
+         src="https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceab748393b055_Circle.svg"
+         alt="Circle Decoration in Shop Products Block"
+         class="support-square-image"
+        />
+       </a>
       </div>
       <p>
        Our mission is simple: To provide our customers with an exceptional
@@ -153,11 +216,13 @@
       <div class="support-square square-2">
        <div class="support-square-number">02</div>
        <div class="support-square-text">DELIVERY SERVICES</div>
-       <img
-        src="https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceab8df093b059_Triangle.svg"
-        alt="Triangle Decoration in Donate Block"
-        class="support-square-image triangle"
-       />
+       <a href="/epicTours/contact.html">
+        <img
+         src="https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceab8df093b059_Triangle.svg"
+         alt="Triangle Decoration in Donate Block"
+         class="support-square-image triangle"
+        />
+       </a>
       </div>
       <p>
        You have an item that needs to be shipped from one location to another,
@@ -169,11 +234,13 @@
       <div class="support-square square-3">
        <div class="support-square-number">03</div>
        <div class="support-square-text">EVENTS & PARTIES</div>
-       <img
-        src="https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceab810993b05a_Rectangle.svg"
-        alt="Rectangle Decoration in Buy Gift Cards Block"
-        class="support-square-image rectangle"
-       />
+       <a href="/epicTours/contact.html">
+        <img
+         src="https://uploads-ssl.webflow.com/634daae1c8ceab2f5993b003/634daae1c8ceab810993b05a_Rectangle.svg"
+         alt="Rectangle Decoration in Buy Gift Cards Block"
+         class="support-square-image rectangle"
+        />
+       </a>
       </div>
       <p>
        Organize Events & Parties will help you with all the details:
@@ -271,17 +338,13 @@
       <div role="listitem" class="w-dyn-item">
        <div class="shop-item-wrapper">
         <a
-         href="/product/white-tent"
+         href="https://wa.me/+254741932884"
          class="shop-item-link-wrapper w-inline-block"
          ><div
-          data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr.url%22%2C%22to%22%3A%22style.background-image%22%7D%5D"
           style="background-image: url('/epicTours/images/dolphins.jpg')"
           class="shop-image tumbler-1"
          >
-          <div
-           data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22America%2FChicago%22%7D"
-           class="pill-2 badge primary sale w-condition-invisible"
-          >
+          <div class="pill-2 badge primary sale w-condition-invisible">
            Sale
           </div>
          </div>
@@ -289,22 +352,15 @@
           <div class="shop-details-left">
            <div class="shop-item-name">Dolphins at Wasini</div>
            <div class="price-wrapper">
+            <div class="shop-item-price">$ 90.00</div>
             <div
-             data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
-             class="shop-item-price"
-            >
-             $ 200.00 USD
-            </div>
-            <div
-             data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
-             data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22America%2FChicago%22%7D"
              class="shop-item-price compare w-condition-invisible w-dyn-bind-empty"
             ></div>
            </div>
           </div></div
         ></a>
         <div class="shop-button-wrapper">
-         <a href="/product/white-tent" class="btn w-button">Details</a>
+         <a href="/epicTours/contact.html" class="btn w-button">Details</a>
         </div>
        </div>
       </div>
@@ -314,80 +370,54 @@
          href="/product/tin-coffee-tumbler"
          class="shop-item-link-wrapper w-inline-block"
          ><div
-          data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr.url%22%2C%22to%22%3A%22style.background-image%22%7D%5D"
           style="background-image: url('/epicTours/images/tuk-tuk.jpg')"
           class="shop-image tumbler-1"
          >
-          <div
-           data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22America%2FChicago%22%7D"
+          <!-- <div
            class="pill-2 badge primary sale w-condition-invisible"
           >
            Sale
-          </div>
+          </div> -->
          </div>
          <div class="shop-details-wrapper">
           <div class="shop-details-left">
            <div class="shop-item-name">Road Trips</div>
            <div class="price-wrapper">
+            <div class="shop-item-price">$ 45.00</div>
             <div
-             data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
-             class="shop-item-price"
-            >
-             $ 35.00 USD
-            </div>
-            <div
-             data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
-             data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22America%2FChicago%22%7D"
              class="shop-item-price compare w-condition-invisible w-dyn-bind-empty"
             ></div>
            </div>
           </div></div
         ></a>
         <div class="shop-button-wrapper">
-         <a href="/product/tin-coffee-tumbler" class="btn w-button">Details</a>
+         <a href="/epicTours/contact.html" class="btn w-button">Details</a>
         </div>
        </div>
       </div>
       <div role="listitem" class="w-dyn-item">
        <div class="shop-item-wrapper">
         <a
-         href="/product/blue-canvas-pack"
+         href="https://wa.me/+254741932884"
          class="shop-item-link-wrapper w-inline-block"
          ><div
-          data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr.url%22%2C%22to%22%3A%22style.background-image%22%7D%5D"
           style="background-image: url('/epicTours/images/parties.jpg')"
           class="shop-image tumbler-1"
          >
-          <div
-           data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22America%2FChicago%22%7D"
-           class="pill-2 badge primary sale"
-          >
-           Sale
-          </div>
+          <div class="pill-2 badge primary sale">Sale</div>
          </div>
          <div class="shop-details-wrapper">
           <div class="shop-details-left">
            <div class="shop-item-name">Parties & Events</div>
            <div class="price-wrapper">
-            <div
-             data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
-             class="shop-item-price"
-            >
-             $ 95.00 USD
-            </div>
-            <div
-             data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
-             data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22America%2FChicago%22%7D"
-             class="shop-item-price compare"
-            >
-             $ 145.00 USD
-            </div>
+            <div class="shop-item-price">$ 95.00</div>
+            <div class="shop-item-price compare">$ 145.00</div>
            </div>
           </div>
          </div></a
         >
         <div class="shop-button-wrapper">
-         <a href="/product/blue-canvas-pack" class="btn w-button">Details</a>
+         <a href="/epicTours/contact.html" class="btn w-button">Details</a>
         </div>
        </div>
       </div>
@@ -400,63 +430,43 @@
     </div>
    </div>
   </div>
-  <div class="shop-local-section wf-section">
+  <div class="content-section wf-section">
    <div class="container shop-local-container">
-    <div class="shop-local-wrapper">
-     <div class="shop-local-left">
-      <!-- left carousel -->
-      <div class="carousel-inner">
-       <div class="item">
-        <img
-         src="/epicTours/images/tuktuk.jpg"
-         alt="Los Angeles"
-         style="width: 100%"
-         class="ride-carousel"
-        />
-       </div>
-
-       <div class="item active">
-        <img
-         src="/epicTours/images/ride.jpg"
-         alt="Chicago"
-         style="width: 100%"
-         class="ride-carousel"
-        />
-       </div>
-
-       <div class="item">
-        <img
-         src="/epicTours/images/tuk-tuk.jpg"
-         alt="New york"
-         style="width: 100%"
-         class="ride-carousel"
-        />
-       </div>
+    <div class="content-wrapper">
+     <div class="meet-the-owners-wrapper">
+      <div class="meet-the-owners-left">
+       <img
+        src="/epicTours/images/ride.jpg"
+        alt="Chicago"
+        style="width: 100%"
+        class="ride-carousel"
+       />
       </div>
-     </div>
-     <div class="shop-local-right">
-      <div class="shop-local-content-wrapper">
-       <h2 class="shop-local-heading">Choose Your Ride</h2>
-       <p>from our variety</p>
-       <p>
-        Choose your ride is an on-demand, shared transportation service that
-        connects riders to their destination with the tap of your phone.
-       </p>
-       <p>
-        We are going to offer you all the services of a taxi service, but we
-        will also provide you with the convenience of ride sharing. With this
-        new venture, we want to give our customers an experience like no other
-        in the area. Our goal is to make sure that every person who wants a ride
-        can get one easily and quickly.
-       </p>
-       <p>-------</p>
-       <!-- <div>Jane &amp; John Doe</div> -->
-       <div><strong>Epic Tours</strong> & Delivery</div>
+      <div class="meet-the-owners-right">
+       <div class="owners-rich-text w-richtext">
+        <h2 class="shop-local-heading">Choose Your Ride</h2>
+        <p>from our variety</p>
+        <p>
+         Choose your ride is an on-demand, shared transportation service that
+         connects riders to their destination with the tap of your phone.
+        </p>
+        <p>
+         We are going to offer you all the services of a taxi service, but we
+         will also provide you with the convenience of ride sharing. With this
+         new venture, we want to give our customers an experience like no other
+         in the area. Our goal is to make sure that every person who wants a
+         ride can get one easily and quickly.
+        </p>
+        <p>-------</p>
+        <!-- <div>Jane &amp; John Doe</div> -->
+        <div><strong>Epic Tours</strong> & Delivery</div>
+       </div>
       </div>
      </div>
     </div>
    </div>
   </div>
+  <!--  -->
   <div class="footer wf-section">
    <div class="container">
     <div class="footer-wrapper">
