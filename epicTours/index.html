@@ -53,7 +53,7 @@
    };
   </script>
  </head>
- <body>
+ <body id="main">
   <div class="menu-wrapper">
    <div
     data-collapse="medium"
@@ -140,7 +140,30 @@
          </div>
         </div>
        </div>
-       <div class="nav-button w-nav-button">
+       <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="/epicTours/" aria-current="page" class="nav-link-s">Home</a
+        ><a href="/epicTours/about.html" class="nav-link-s">About</a
+        ><a href="/epicTours/shop.html" class="nav-link-s">Shop</a
+        ><a href="/epicTours/donate.html" class="nav-link-s">Donate</a
+        ><a href="/epicTours/contact.html" class="nav-link-s">Contact</a>
+       </div>
+       <script>
+        function openNav() {
+         document.getElementById("mySidebar").style.width = "250px";
+         //  document.getElementById("main").style.marginRight = "250px";
+        }
+
+        function closeNav() {
+         document.getElementById("mySidebar").style.width = "0";
+         //  document.getElementById("main").style.marginRight = "0";
+        }
+       </script>
+       <div
+        class="nav-button w-nav-button openbtn"
+        onclick="
+       openNav()"
+       >
         <div class="w-icon-nav-menu"></div>
        </div>
       </div>
@@ -173,10 +196,6 @@
    <div class="container">
     <div class="support-top-wrapper">
      <div class="support-top-left">
-      <a href="/epicTours/about.html" class="btn-1"
-       ><div class="btn">About Us</div></a
-      >
-
       <h2 class="support-top-heading">Services we offer</h2>
      </div>
      <div class="support-top-right">
