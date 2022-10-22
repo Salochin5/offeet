@@ -6860,3 +6860,17 @@ blockquote {
  margin: auto;
  text-align: center;
 }
+
+#chooseride {
+ position: absolute;
+ left: 0%;
+ top: 5%;
+ right: auto;
+ bottom: 0%;
+ width: 45%;
+ height: 90%;
+ border-radius: 5px;
+ background-image: url("/epicTours/images/ride.jpg");
+ background-position: 50% 100%;
+ background-size: cover;
+}
