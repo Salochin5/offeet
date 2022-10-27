@@ -5434,8 +5434,18 @@ blockquote {
  background-size: cover;
 }
 
-#choose-your-ride-left {
- background-image: url("/epicTours/images/ride.jpg") !;
+.chooseride {
+ position: absolute;
+ left: 0%;
+ top: 5%;
+ right: auto;
+ bottom: 0%;
+ width: 45%;
+ height: 90%;
+ border-radius: 5px;
+ background-image: url("/epicTours/images/ride.jpg");
+ background-position: 50% 100%;
+ background-size: cover;
 }
 
 .owners-rich-text h2 {
@@ -6169,7 +6179,8 @@ blockquote {
   padding-left: 145px;
  }
 
- .meet-the-owners-left {
+ .meet-the-owners-left,
+ .chooseride {
   background-position: 50% 100%;
  }
 
@@ -6400,7 +6411,8 @@ blockquote {
   border-radius: 0px;
  }
 
- .meet-the-owners-left {
+ .meet-the-owners-left,
+ .chooseride {
   position: static;
   width: 100%;
   height: 400px;
