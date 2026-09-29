@@ -1,3 +1,3 @@
 # offeet
 
-offeet.us official
+offeet.ai official
